@@ -1,53 +1,47 @@
-Rosalind_0498 AAA : Rosalind_2391 AAA 
-Rosalind_0498 Rosalind_2391 
-Rosalind_0498 AAA : Rosalind_2323 TTT 
-Rosalind_0498 AAA : Rosalind_0442 AAA 
-Rosalind_0498 Rosalind_0442 
-Rosalind_0498 AAA : Rosalind_5013 GGG 
-Rosalind_2391 TTT : Rosalind_2391 TTT 
-Rosalind_2391 Rosalind_2391
- 
-Rosalind_2391 TTT : Rosalind_2323 AAA <----------------HUH
-
-Rosalind_2391 TTT : Rosalind_0442 GGG 
-Rosalind_2323 CCC : Rosalind_2391 AAA 
-Rosalind_2323 CCC : Rosalind_2323 GGG 
-Rosalind_0442 CCC : Rosalind_2391 GGG 
-
-
->Rosalind_0498
-AAATAAA
-
->Rosalind_2391
-AAAT [TTT] <-------------------------------------
-												 |
-
->Rosalind_2323									??
-{TTT}! TCCC
-  ^
-  |______________________________________________|
-
-
->Rosalind_0442
-AAATCCC
-
->Rosalind_5013
-GGGTGGG 
-
---
-
-Rosalind_0498 AAA AAATAAA : Rosalind_2391 AAA AAATTTT 
-Rosalind_0498 Rosalind_2391 
 Rosalind_0498 AAA AAATAAA : Rosalind_2323 TTT TTTTCCC 
-Rosalind_0498 AAA AAATAAA : Rosalind_0442 AAA AAATCCC 
-Rosalind_0498 Rosalind_0442 
-Rosalind_0498 AAA AAATAAA : Rosalind_5013 GGG GGGTGGG  
-Rosalind_2391 TTT AAATTTT : Rosalind_2391 TTT TTTTCCC 
-Rosalind_2391 Rosalind_2391 
-
 Rosalind_2391 TTT AAATTTT : Rosalind_2323 AAA AAATCCC 
+Rosalind_2323 CCC TTTTCCC : Rosalind_2391 AAA AAATCCC
+Rosalind_2323 CCC TTTTCCC : Rosalind_2323 GGG GGGTGGG  
 
-Rosalind_2391 TTT AAATTTT : Rosalind_0442 GGG GGGTGGG  
+_____________________________________________________
+
+ >> Rosalind_2323 TTTTCCC 
+Rosalind_0498 AAA AAATAAA : Rosalind_2323 TTT TTTTCCC 
+Rosalind_2391 TTT AAATTTT : Rosalind_2323 AAA AAATCCC 
 Rosalind_2323 CCC TTTTCCC : Rosalind_2391 AAA AAATCCC 
 Rosalind_2323 CCC TTTTCCC : Rosalind_2323 GGG GGGTGGG  
-Rosalind_0442 CCC AAATCCC : Rosalind_2391 GGG GGGTGGG  
+ >> Rosalind_2323 TTTTCCC 
+
+_____________________________________________________
+
+
+ >> Rosalind_2323 TTTTCCC 
+Rosalind_0498 AAA AAATAAA : Rosalind_2323 TTT TTTTCCC 
+Rosalind_2391 TTT AAATTTT : Rosalind_2323 AAA AAATCCC 
+Rosalind_2323 CCC TTTTCCC : Rosalind_0498 TTT TTTTCCC 
+Rosalind_2323 CCC TTTTCCC : Rosalind_2391 AAA AAATCCC 
+Rosalind_2323 CCC TTTTCCC : Rosalind_2323 GGG GGGTGGG  
+ >> Rosalind_2323 TTTTCCC 
+
+_____________________________________________________
+
+
+ >> Rosalind_2323 TTTTCCC 
+Rosalind_0498 AAA AAATAAA : Rosalind_2323 TTT TTTTCCC 
+Rosalind_2391 TTT AAATTTT : Rosalind_2323 AAA AAATCCC 
+	Rosalind_2323 CCC TTTTCCC : Rosalind_0498 TTT TTTTCCC 
+                         ^                           ^  
+                         \                          /
+                           ------------------------
+
+	Rosalind_2323 CCC TTTT[CCC] : Rosalind_2391 AAA AAAT[CCC] 
+						    ^                             ^
+							 \                           /
+                               -------------------------  
+
+Rosalind_2323 CCC TTTTCCC : Rosalind_2323 GGG GGGTGGG  
+ >> Rosalind_2323 TTTTCCC 
+
+_____________________________________________________
+
+
