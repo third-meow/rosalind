@@ -33,3 +33,21 @@ AAATCCC
 
 >Rosalind_5013
 GGGTGGG 
+
+--
+
+Rosalind_0498 AAA AAATAAA : Rosalind_2391 AAA AAATTTT 
+Rosalind_0498 Rosalind_2391 
+Rosalind_0498 AAA AAATAAA : Rosalind_2323 TTT TTTTCCC 
+Rosalind_0498 AAA AAATAAA : Rosalind_0442 AAA AAATCCC 
+Rosalind_0498 Rosalind_0442 
+Rosalind_0498 AAA AAATAAA : Rosalind_5013 GGG GGGTGGG  
+Rosalind_2391 TTT AAATTTT : Rosalind_2391 TTT TTTTCCC 
+Rosalind_2391 Rosalind_2391 
+
+Rosalind_2391 TTT AAATTTT : Rosalind_2323 AAA AAATCCC 
+
+Rosalind_2391 TTT AAATTTT : Rosalind_0442 GGG GGGTGGG  
+Rosalind_2323 CCC TTTTCCC : Rosalind_2391 AAA AAATCCC 
+Rosalind_2323 CCC TTTTCCC : Rosalind_2323 GGG GGGTGGG  
+Rosalind_0442 CCC AAATCCC : Rosalind_2391 GGG GGGTGGG  

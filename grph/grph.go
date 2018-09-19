@@ -42,7 +42,7 @@ func main() {
 	for i, e := range strs {
 		for j, v := range strs[i:] {
 			if e != v {
-				fmt.Printf("%s %s : %s %s \n", labels[i], e[len(e)-3:], labels[j], v[:3])
+				//fmt.Printf("%s %s %s : %s %s %s \n", labels[i], e[len(e)-3:], e, labels[j], v[:3], v)
 				if e[len(e)-3:] == v[:3] {
 					fmt.Printf("%s %s \n", labels[i], labels[j])
 					/*if i < 2 {
