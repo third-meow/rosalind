@@ -33,23 +33,14 @@ func main() {
 		strs = append(strs, s)
 	}
 
-	/* for i := range labels {
-	 *      fmt.Printf("%s %s \n", labels[i], strs[i])
-	 * }
-	 * fmt.Println(labels)
-	 * fmt.Println(strs)
-	 */
-
-	fmt.Printf(" >> %s %s \n", labels[2], strs[2])
 	for i, e := range strs {
-		for j, v := range strs[i:] {
-			//if e != v {
-			fmt.Printf("%s %s %s : %s %s %s \n", labels[i], e[len(e)-3:], e, labels[j], v[:3], v)
-			//if e[len(e)-3:] == v[:3] {
-			//	fmt.Printf("%s %s \n", labels[i], labels[j])
-			//}
-			//}
+		for j, v := range strs {
+			if e != v {
+				//fmt.Printf("%s %s %s : %s %s %s\n", labels[i], e[len(e)-3:], e, labels[j], v[:3], v)
+				if e[len(e)-3:] == v[:3] {
+					fmt.Printf("%s %s\n", labels[i], labels[j])
+				}
+			}
 		}
 	}
-	fmt.Printf(" >> %s %s \n", labels[2], strs[2])
 }
